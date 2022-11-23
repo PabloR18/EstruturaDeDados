@@ -32,8 +32,8 @@ public class DesafioEstoque {
 		System.out.println("-----------------------------------");
 		
 		for (int i = 0; i < produtos.length; i++) {
-			System.out.printf("Produto %d ", i+1);
-			System.out.println("Valor: "+ produtos[i][1]);
+			System.out.printf("Código do Produto -> "+ produtos[i][0]);
+			System.out.println(" - Valor: "+ produtos[i][1]);
 		}
 		
 		entrada.close();
